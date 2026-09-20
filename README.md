@@ -1,4 +1,4 @@
-# 2026 Gemini充值 / Google AI Pro 国内购买指南：套餐、支付宝微信付款与到账说明
+# Gemini / Google AI Pro 怎么开通：国内购买与套餐说明
 
 > **最后更新：2026 年 9 月**
 >
