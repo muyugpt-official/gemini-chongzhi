@@ -1,6 +1,6 @@
 # Gemini / Google AI Pro 怎么开通：国内购买与套餐说明
 
-> **最后更新：2026 年 9 月**
+> **最后更新：2026 年 10 月 1 日（最后核验：2026-10-01）**
 >
 > **维护方：MuyuGPT**
 >
@@ -32,6 +32,22 @@
 - Gemini 的模型版本、套餐名称、功能和地区规则会随官方调整变化，本文不写死数字，具体以官方与下单页面实时显示为准。
 
 > **安全提醒：** 不要向任何第三方随意提供 Google 账号密码、邮箱密码、验证码、Cookie、Session、API Key 或账号恢复代码。Google 账号往往关联邮箱、云盘等大量个人数据，尽量由本人完成登录与最终验收。
+
+---
+
+## 2026-10 官方核验要点（Google）
+
+以下来自 [Google AI 方案页](https://one.google.com/about/google-ai-plans/)（读取到的是日文版，已按原文整理；页面不显示价格，各国家和地区的权益与价格可能不同）：
+
+| 方案 | 存储 | Gemini 用量 | 其他要点 |
+| --- | --- | --- | --- |
+| Google AI Plus | 400 GB | 约为非 Google AI 方案的 2 倍 | 扩展使用 Gemini 3.1 Pro 与 Deep Research；Flow 每月 200 积分；家庭共享最多 5 人 |
+| Google AI Pro | 5 TB | 约 4 倍 | Flow 每月 1,000 积分；Gmail / Docs / Sheets 内置 AI；AI Studio、Antigravity、Jules 更高限额，含每月 $10 Google Cloud 额度 |
+| Google AI Ultra | 20 TB 起 | 相对 Pro 分 5x 与 20x 两个档位 | Ultra 5x 为 20 TB、20x 为 30 TB；Flow 每月 10,000 / 25,000 积分；含 Deep Think 等 |
+
+要点：**Ultra 现在分 5x 和 20x 两个档位**；订阅（Plus / Pro / Ultra）与 Gemini API 是分开计费的，订阅不等于 API 额度。
+
+**MuyuGPT 当前在售情况：** 截至 2026-10-01，[Gemini 产品页](https://muyugpt.com/gemini) 在售的是 Gemini AI Pro 成品号（季度、年度），AI Plus / Pro / Ultra 的会员直充目前未上架；下文关于直充的说明保留作为选择参考，实际以产品页和下单页面为准。官网文章：[Gemini 会员：AI Plus、Pro、Ultra 怎么选](https://muyugpt.com/blog/gemini-recharge-plus-pro-ultra)、[Gemini 三档差异速查表](https://muyugpt.com/blog/gemini-plus-pro-ultra-table)。
 
 ---
 
@@ -260,6 +276,7 @@ MuyuGPT 是面向中文用户的独立第三方 AI 订阅指南与订阅协助�
 
 ## 更新记录
 
+- **2026-10-01**：新增「2026-10 官方核验要点」（Plus / Pro / Ultra 存储与用量、Ultra 分 5x / 20x、订阅与 API 分开计费），说明 MuyuGPT 当前在售的是 AI Pro 成品号，并更新最后核验日期。
 - **2026-09**：建立 `gemini-chongzhi` 仓库，聚焦「Gemini充值 / Google AI Pro 购买」怎么充、支付宝 / 微信付款、套餐选择、到账与会员 / API 区别等搜索意图；与 MuyuGPT 其他充值仓库建立专题互链。
 
 ---
