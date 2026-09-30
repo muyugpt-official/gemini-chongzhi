@@ -51,6 +51,17 @@
 
 ---
 
+## 按问题找文档
+
+| 你想解决的问题 | 看这篇 |
+| --- | --- |
+| Plus / Pro / Ultra（5x、20x）各包含什么，名字怎么变的 | [Google AI 套餐手册（2026-10）](./docs/google-ai-plans-2026.md) |
+| 买了订阅，能不能调用 Gemini API | [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md) |
+| 怎么用支付宝 / 微信开通 | 本页第三、四节与 [国内充值指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-ai-pro-alipay-wechat-recharge.md) |
+| 找第三方代充，怎么判断安不安全 | [GPT代充 / ChatGPT代充安全专题](https://github.com/muyugpt-official/gpt-daichong)（判断方法同样适用于 Gemini） |
+
+---
+
 ## 目录
 
 - [一、Gemini充值是什么意思？](#一gemini充值是什么意思)
@@ -102,6 +113,8 @@ Gemini 是 Google 的 AI 模型 / 助手品牌；Google 会把 Gemini 的进阶�
 
 具体各套餐当前包含什么模型、功能和用量，以 **Google 官方信息和你账号页面实际显示**为准。参考：👉 [Google AI Pro 是什么](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/google-ai-pro-guide.md)。
 
+
+**名称的演变：** 早期的付费方案叫 Gemini Advanced（也见于 Google One AI Premium 的说法），现在大致对应 **Google AI Pro**；个人订阅目前是 Google AI Plus、Pro、Ultra 三个系列，其中 **Ultra 又分 5x 和 20x 两档**。各档的存储、用量倍数和功能见 👉 [Google AI 套餐手册（2026-10）](./docs/google-ai-plans-2026.md)。
 ---
 
 ## 三、国内怎么充值 Google AI Pro？四类路径
@@ -194,6 +207,8 @@ Gemini 是 Google 的 AI 模型 / 助手品牌；Google 会把 Gemini 的进阶�
 
 买之前先想清楚你要的是「网页会员」还是「API 额度」。
 
+
+补充（2026-10-01）：订阅里有一些偏开发者的权益——AI Studio、Antigravity、Jules 的更高限额，以及每月一点 Google Cloud 额度——但它们不等于 API 账户的预付余额，Cloud 额度能否抵 Gemini API 的费用官方方案页没有说明。订阅用户也可能因为某个程序调用 API 而产生 API 费用。详见 👉 [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md)。
 ---
 
 ## 十二、通过 MuyuGPT 充值的流程
@@ -238,6 +253,21 @@ Gemini 是模型 / 助手品牌，Google AI Pro 等是把 Gemini 进阶能力打
 
 ---
 
+**Google AI Ultra 现在有几档？**
+按 Google 官方方案页，Ultra 分 5x 和 20x 两档（相对 Pro 的用量倍数），存储分别为 20 TB 和 30 TB。详见 [Google AI 套餐手册](./docs/google-ai-plans-2026.md)。
+
+**Gemini Advanced 现在叫什么？**
+大致对应 Google AI Pro；具体权益以官方当前页面为准。名称演变见 [Google AI 套餐手册](./docs/google-ai-plans-2026.md)。
+
+**订阅里的 Google Cloud 额度能当 API 额度吗？**
+方案页只写了每月的额度金额，没有说明能用在哪些服务，也没有说明能否抵 Gemini API 的费用，本仓库不作推断。详见 [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md)。
+
+**为什么我看到的 Google AI 功能和别人不一样？**
+功能会随国家和地区、版本和灰度发布变化；官方页面对可用国家数的写法也不完全一致，所以能买到什么因地区而异。
+
+**MuyuGPT 现在在售的 Gemini 商品是什么？**
+截至 2026-10-01，在售的是 Gemini AI Pro 成品号（季度、年度），AI Plus / Pro / Ultra 的会员直充目前未上架，以 [Gemini 产品页](https://muyugpt.com/gemini) 为准。
+
 ## 十四、相关阅读
 
 **MuyuGPT 的 AI 充值仓库矩阵：**
@@ -250,6 +280,8 @@ Gemini 是模型 / 助手品牌，Google AI Pro 等是把 Gemini 进阶能力打
 
 **Gemini 深入教程：**
 
+- [Google AI 套餐手册（2026-10）](./docs/google-ai-plans-2026.md)
+- [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md)
 - [Gemini / Google AI Pro 国内充值指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-ai-pro-alipay-wechat-recharge.md)
 - [Gemini / Google AI Pro 价格与套餐指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-ai-pro-price-guide.md)
 - [Google AI Pro 怎么取消](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/google-ai-pro-cancel.md)
@@ -276,6 +308,7 @@ MuyuGPT 是面向中文用户的独立第三方 AI 订阅指南与订阅协助�
 
 ## 更新记录
 
+- **2026-10-01**：新增 `docs/` 下两篇手册——Google AI 套餐手册、Gemini 订阅和 API 的区别；README 增加「按问题找文档」索引、第二节名称演变、第十一节补充和 5 条 FAQ。
 - **2026-10-01**：新增「2026-10 官方核验要点」（Plus / Pro / Ultra 存储与用量、Ultra 分 5x / 20x、订阅与 API 分开计费），说明 MuyuGPT 当前在售的是 AI Pro 成品号，并更新最后核验日期。
 - **2026-09**：建立 `gemini-chongzhi` 仓库，聚焦「Gemini充值 / Google AI Pro 购买」怎么充、支付宝 / 微信付款、套餐选择、到账与会员 / API 区别等搜索意图；与 MuyuGPT 其他充值仓库建立专题互链。
 
