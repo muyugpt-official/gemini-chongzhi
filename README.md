@@ -1,317 +1,368 @@
-# Gemini / Google AI Pro 怎么开通：国内购买与套餐说明
+# Gemini / Google AI Pro 国内怎么开通？付款、套餐和常见问题
 
-> **最后更新：2026 年 10 月 1 日（最后核验：2026-10-01）**
->
-> **维护方：MuyuGPT**
->
-> **本文解决：** Gemini 怎么充值、Google AI Pro 怎么购买、国内没有海外信用卡怎么办、支付宝 / 微信如何付款、套餐怎么选、充值多久到账，以及 Gemini 网页会员和 Google API 有什么区别。
->
-> **第三方身份说明：** MuyuGPT 是面向中文用户的独立第三方 AI 订阅指南与订阅协助平台，并非 Google 官方渠道，与 Google 不存在官方隶属、授权或合作关系。
+> 最后更新：2026 年 10 月  
+> 维护：MuyuGPT
 
-国内用户搜索「**Gemini充值**」「**Google AI Pro 充值**」时，通常是想开通 Google 的 AI 付费方案（如 Google AI Pro 等），但卡在了没有海外信用卡、官方付款不方便这一步。
+第一次准备开 Gemini 会员，很多人真正卡住的并不是“不会点购买”，而是搞不清楚：
 
-如果你已经具备 Google 当前官方订阅所需要的账号、地区和付款条件，通常优先考虑官方渠道。
+- Gemini 和 Google AI Pro 到底是什么关系
+- 国内账号能不能直接订阅
+- 没有合适的海外付款方式怎么办
+- 支付宝、微信能不能用
+- 会员和 Gemini API 是不是一回事
+- 第三方订阅到底安不安全
 
-如果官方付款不方便，或者需要人民币结算、支付宝 / 微信付款、中文订单查询和中文售后，可以再根据实际需求比较第三方订阅协助。
+这篇就把这些问题说清楚。
 
-👉 **[查看 MuyuGPT 当前 Gemini / Google AI Pro 套餐与人民币价格](https://muyugpt.com/gemini)**
+如果你的 Google 账号、地区和付款方式都能正常完成官方订阅，优先走官方渠道最省事。
 
----
-
-## Gemini充值 30 秒结论
-
-| 充值路径 | 操作难度 | 账号控制 | 更适合 |
-| --- | ---: | --- | --- |
-| Google 官方订阅 | 中 | 本人控制 | 已具备官方账号、地区与付款条件 |
-| 应用商店订阅 | 中 | 本人控制 | 符合对应商店当前购买条件 |
-| 其他官方支持路径 | 中～高 | 本人控制 | 熟悉跨境支付、符合当前官方结算条件 |
-| 第三方订阅协助 | 低～中 | 取决于交付方式 | 需要人民币付款、中文订单或中文售后 |
-
-- 「Gemini充值」在中文语境下，多数指**开通 / 续费 Google AI Pro 等付费方案**。
-- 付款前先确认：买的是哪个套餐、开通到**哪个 Google 账号**、通过**什么方式付款与交付**。
-- Gemini 的模型版本、套餐名称、功能和地区规则会随官方调整变化，本文不写死数字，具体以官方与下单页面实时显示为准。
-
-> **安全提醒：** 不要向任何第三方随意提供 Google 账号密码、邮箱密码、验证码、Cookie、Session、API Key 或账号恢复代码。Google 账号往往关联邮箱、云盘等大量个人数据，尽量由本人完成登录与最终验收。
+如果官方付款条件不合适，再去比较应用商店或者第三方服务。
 
 ---
 
-## 2026-10 官方核验要点（Google）
+## 先说结论
 
-以下来自 [Google AI 方案页](https://one.google.com/about/google-ai-plans/)（读取到的是日文版，已按原文整理；页面不显示价格，各国家和地区的权益与价格可能不同）：
+如果只是想在 Gemini 网页或 App 里使用更完整的会员能力，你真正需要关注的是 **Google 当前提供的 AI 会员套餐**。
 
-| 方案 | 存储 | Gemini 用量 | 其他要点 |
-| --- | --- | --- | --- |
-| Google AI Plus | 400 GB | 约为非 Google AI 方案的 2 倍 | 扩展使用 Gemini 3.1 Pro 与 Deep Research；Flow 每月 200 积分；家庭共享最多 5 人 |
-| Google AI Pro | 5 TB | 约 4 倍 | Flow 每月 1,000 积分；Gmail / Docs / Sheets 内置 AI；AI Studio、Antigravity、Jules 更高限额，含每月 $10 Google Cloud 额度 |
-| Google AI Ultra | 20 TB 起 | 相对 Pro 分 5x 与 20x 两个档位 | Ultra 5x 为 20 TB、20x 为 30 TB；Flow 每月 10,000 / 25,000 积分；含 Deep Think 等 |
+如果你是开发者，要把 Gemini 接到程序、网站或者自己的应用里，那看的通常是 **Gemini API**。
 
-要点：**Ultra 现在分 5x 和 20x 两个档位**；订阅（Plus / Pro / Ultra）与 Gemini API 是分开计费的，订阅不等于 API 额度。
+这两个不是一回事。
 
-**MuyuGPT 当前在售情况：** 截至 2026-10-01，[Gemini 产品页](https://muyugpt.com/gemini) 在售的是 Gemini AI Pro 成品号（季度、年度），AI Plus / Pro / Ultra 的会员直充目前未上架；下文关于直充的说明保留作为选择参考，实际以产品页和下单页面为准。官网文章：[Gemini 会员：AI Plus、Pro、Ultra 怎么选](https://muyugpt.com/blog/gemini-recharge-plus-pro-ultra)、[Gemini 三档差异速查表](https://muyugpt.com/blog/gemini-plus-pro-ultra-table)。
-
----
-
-## 按问题找文档
-
-| 你想解决的问题 | 看这篇 |
+| 你的用途 | 先看什么 |
 | --- | --- |
-| Plus / Pro / Ultra（5x、20x）各包含什么，名字怎么变的 | [Google AI 套餐手册（2026-10）](./docs/google-ai-plans-2026.md) |
-| 买了订阅，能不能调用 Gemini API | [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md) |
-| 怎么用支付宝 / 微信开通 | 本页第三、四节与 [国内充值指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-ai-pro-alipay-wechat-recharge.md) |
-| 找第三方代充，怎么判断安不安全 | [GPT代充 / ChatGPT代充安全专题](https://github.com/muyugpt-official/gpt-daichong)（判断方法同样适用于 Gemini） |
+| 平时聊天、写作、学习 | Gemini / Google AI 会员 |
+| 使用 Google 生态里的 AI 功能 | Google 当前 AI 套餐 |
+| 程序开发、接口调用 | Gemini API |
+| 没有合适的官方付款方式 | 再比较其他订阅方式 |
+| 不知道该买哪种 | 先确认用途，不要先付款 |
 
 ---
 
-## 目录
+## “Gemini 充值”到底指什么？
 
-- [一、Gemini充值是什么意思？](#一gemini充值是什么意思)
-- [二、Gemini 和 Google AI Pro 是什么关系？](#二gemini-和-google-ai-pro-是什么关系)
-- [三、国内怎么充值 Google AI Pro？四类路径](#三国内怎么充值-google-ai-pro四类路径)
-- [四、Gemini充值可以用支付宝吗？](#四gemini充值可以用支付宝吗)
-- [五、Gemini充值可以用微信吗？](#五gemini充值可以用微信吗)
-- [六、没有海外信用卡怎么办？](#六没有海外信用卡怎么办)
-- [七、Gemini充值需要 Google 账号密码吗？](#七gemini充值需要-google-账号密码吗)
-- [八、Gemini充值安全吗？](#八gemini充值安全吗)
-- [九、Gemini充值一般多久到账？](#九gemini充值一般多久到账)
-- [十、Google AI Pro 充值不到账怎么办？](#十google-ai-pro-充值不到账怎么办)
-- [十一、Gemini 网页会员和 Google API 有什么区别？](#十一gemini-网页会员和-google-api-有什么区别)
-- [十二、通过 MuyuGPT 充值的流程](#十二通过-muyugpt-充值的流程)
-- [十三、Gemini充值常见问题 FAQ](#十三gemini充值常见问题-faq)
-- [十四、相关阅读](#十四相关阅读)
-- [官方资料与信息来源](#官方资料与信息来源)
-- [第三方身份声明](#第三方身份声明)
-- [更新记录](#更新记录)
+中文里大家经常搜：
 
----
+- Gemini充值
+- Google AI Pro充值
+- Gemini会员
+- Gemini国内购买
+- Gemini订阅
+- Gemini支付宝
+- Gemini微信支付
 
-## 一、Gemini充值是什么意思？
+但严格来说，“充值”这个词比较宽。
 
-「Gemini充值」不是 Google 的官方产品名称，而是中文用户对「购买 / 开通 Gemini 付费方案」的口头说法。相近的搜索词还有：
+大部分时候，用户真正想做的是：
 
-- Gemini充值、Gemini 会员怎么开通
-- Google AI Pro 充值、Google AI Pro 购买
-- Gemini 国内购买、Gemini 怎么付费
-- Gemini Advanced / Google One AI 相关付费
+**给自己的 Google 账号开通或者续费 AI 会员套餐。**
 
-这些词背后的需求通常是同一句话：
+所以购买之前，不要只问“能不能充”。
 
-> **怎么给自己的 Google 账号开通 Gemini 的付费方案，并且付款要方便。**
+先确认四件事：
 
-真正决定「怎么充」的是这条链路：**产品 → 套餐 → 周期 → 购买渠道 → 付款方式 → 交付方式 → 对应 Google 账号。**
+1. 买的是什么套餐；
+2. 开到哪个 Google 账号；
+3. 通过什么方式付款；
+4. 会员和 API 有没有混淆。
+
+这四个问题比单纯找一个“充值入口”重要得多。
 
 ---
 
-## 二、Gemini 和 Google AI Pro 是什么关系？
+## Gemini、Google AI Pro 和 Gemini API 有什么区别？
 
-Gemini 是 Google 的 AI 模型 / 助手品牌；Google 会把 Gemini 的进阶能力打包进付费方案中对外销售（不同时期名称可能不同，如 Google AI Pro 等）。
+这是最容易买错的地方。
 
-对普通用户来说，需要分清三层：
+### Gemini
 
-- **免费的 Gemini**——Google 也提供可免费使用的基础版本；
-- **付费方案**——解锁更强模型、更高用量或额外功能，这就是大多数人说的「Gemini充值」对象；
-- **开发者 API**——面向程序调用，和网页 / App 会员是不同产品。
+Gemini 是 Google 的 AI 产品和模型品牌。
 
-具体各套餐当前包含什么模型、功能和用量，以 **Google 官方信息和你账号页面实际显示**为准。参考：👉 [Google AI Pro 是什么](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/google-ai-pro-guide.md)。
+普通用户平时打开网页或者 App 使用的，就是这一套产品体验。
 
+### Google AI 会员
 
-**名称的演变：** 早期的付费方案叫 Gemini Advanced（也见于 Google One AI Premium 的说法），现在大致对应 **Google AI Pro**；个人订阅目前是 Google AI Plus、Pro、Ultra 三个系列，其中 **Ultra 又分 5x 和 20x 两档**。各档的存储、用量倍数和功能见 👉 [Google AI 套餐手册（2026-10）](./docs/google-ai-plans-2026.md)。
----
+Google 会根据当前产品策略提供不同的 AI 会员套餐。
 
-## 三、国内怎么充值 Google AI Pro？四类路径
+具体名称、权益和可用地区可能会调整，所以购买前建议看当前官方页面。
 
-### 方式一：Google 官方订阅
+### Gemini API
 
-如果账号、地区和付款方式能正常完成 Google 当前官方购买流程，可优先考虑官方订阅，账号控制权最清晰。
+Gemini API 是给开发者使用的。
 
-### 方式二：应用商店订阅
+如果你要：
 
-根据设备和账号地区，部分用户可能通过对应应用商店完成订阅，实际价格与可用性以商店页面为准。
+- 接入自己的网站
+- 做机器人
+- 写程序调用模型
+- 做自动化工具
+- 在后端调用 Gemini
 
-### 方式三：其他当前官方支持的付款路径
+那看的通常是 API。
 
-官方付款条件会随地区与账号变化，以购买时实际显示的官方结算页面为准，不要依赖旧教程写死的路径。
+**买了 Gemini 会员，不代表自动获得等额 API 额度。**
 
-### 方式四：第三方订阅协助
-
-如果官方付款不方便，或需要人民币结算、支付宝 / 微信、中文订单和售后，可比较第三方订阅协助。选择前重点确认：套餐、周期、开通到哪个 Google 账号、是否保留账号控制权、订单查询、失败处理、退款与售后规则。
-
-👉 **[查看 MuyuGPT Gemini / Google AI Pro 当前套餐](https://muyugpt.com/gemini)** ｜ 完整流程见 [Gemini 国内充值指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-ai-pro-alipay-wechat-recharge.md)
+反过来也一样。
 
 ---
 
-## 四、Gemini充值可以用支付宝吗？
+## 国内用户常见的几种开通方式
 
-区分两个场景：
+### 1. Google 官方订阅
 
-**① Google 官方付款**——以你购买时的官方结算页面和规则为准。
+如果你的账号、地区和付款条件都符合要求，官方订阅通常是最简单的。
 
-**② 第三方人民币订单**——第三方服务商可提供自己的人民币结算方式，例如 MuyuGPT 的 Gemini 商品按当前结算页面提供的方式付款。
+优点很明显：
 
-> **「MuyuGPT 订单支持支付宝」不等于「Google 官方页面直接支持支付宝」。** 这是两笔不同的付款关系。
+- 账号自己控制
+- 订阅关系清楚
+- 不需要经过第三方
+- 续费和取消都比较直观
 
----
+但麻烦也同样明显。
 
-## 五、Gemini充值可以用微信吗？
+有些用户会遇到：
 
-逻辑与支付宝一致。若第三方订单页提供微信人民币付款，表示你是通过微信向第三方服务商付款，不能推导为 Google 官方直接支持微信。付款前确认：收款主体、商品、套餐、周期、交付方式、退款与售后规则。
+- 地区不支持
+- 付款方式无法使用
+- 银行卡被拒
+- Google Payments 资料不匹配
+- 账号地区和付款地区不一致
 
----
-
-## 六、没有海外信用卡怎么办？
-
-可按实际情况比较：① Google 当前官方支持的其他付款方式；② 应用商店订阅；③ 其他符合官方条件的付款路径；④ 第三方订阅协助（人民币结算）。
-
-无论哪条路，都不要为买一个 AI 会员而使用来源不明的支付工具、提交虚假身份资料、随意发送账号密码 / 验证码，或把 Cookie / Session 交给陌生人。
-
----
-
-## 七、Gemini充值需要 Google 账号密码吗？
-
-**不要默认「充值就要给 Google 账号密码」。** Google 账号通常关联 Gmail、云盘、通讯录等大量个人数据，权限敏感度往往比单一 AI 产品账号更高。
-
-以下凭证都应谨慎保护：Google 账号密码、邮箱密码、短信 / 邮箱验证码、Cookie、Session、API Key、两步验证恢复代码。若某服务要求提交高权限凭证，先确认为什么需要、对方能获得什么权限、有没有更低风险的替代方式。
+如果连续付款失败，不建议短时间内反复提交很多次。
 
 ---
 
-## 八、Gemini充值安全吗？
+### 2. 应用商店
 
-同样看四个方面：**账号控制权 + 商品透明度 + 订单记录 + 售后规则**。
+部分用户会通过对应地区的应用商店完成订阅。
 
-考虑到 Google 账号数据面较广，还要特别重视账号控制权——尽量保证登录、验证等关键动作由本人完成。判断细节见 👉 [Gemini 代充安全吗](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-recharge-safety.md)。
+这种方式适合本身就长期使用相关地区账号的人。
 
----
+但需要注意：
 
-## 九、Gemini充值一般多久到账？
+**不同地区、账号和商店当前支持的订阅方式可能不一样。**
 
-没有适用于所有商品的固定时间，受付款状态、商品类型、交付方式、是否需要用户操作、订单处理状态等影响。
-
-> **付款成功 ≠ 服务已完成。** 已付款但未到账时，先查询原订单，不要立即重复付款。
+网上一年以前的教程，不一定现在还能完全照着操作。
 
 ---
 
-## 十、Google AI Pro 充值不到账怎么办？
+### 3. 其他付款方式
 
-排查顺序：① 不要重复付款，先确认原订单付款状态；② 查询订单状态；③ 核对登录的 Google 账号是否为下单账号；④ 确认套餐与会员状态是否一致；⑤ 保留订单号、支付记录与必要截图（不要公开发布含个人信息或凭证的截图）。
+网上还能看到礼品卡、虚拟卡或者各种跨境支付方案。
 
-如通过官方购买时付款失败，思路见 👉 [Gemini 支付失败怎么办](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-payment-failed.md)。
+有些方法能用，但稳定性差别很大。
 
----
+如果只是为了开一个 Gemini 会员，却要：
 
-## 十一、Gemini 网页会员和 Google API 有什么区别？
+- 买来源不明的卡
+- 提供大量个人资料
+- 频繁切换地区
+- 反复注册支付工具
 
-**Gemini 的网页 / App 付费方案和 Google 的开发者 API 是两套不同产品与计费体系。**
+那就要考虑时间成本了。
 
-- 开通网页会员**不等于**获得等额 API 额度；
-- 需要程序调用接口的开发者，对应的是 API，而不是网页会员；
-- 若你只是想在网页 / App 里用更强的 Gemini，一般对应付费方案而非 API。
-
-买之前先想清楚你要的是「网页会员」还是「API 额度」。
-
-
-补充（2026-10-01）：订阅里有一些偏开发者的权益——AI Studio、Antigravity、Jules 的更高限额，以及每月一点 Google Cloud 额度——但它们不等于 API 账户的预付余额，Cloud 额度能否抵 Gemini API 的费用官方方案页没有说明。订阅用户也可能因为某个程序调用 API 而产生 API 费用。详见 👉 [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md)。
----
-
-## 十二、通过 MuyuGPT 充值的流程
-
-MuyuGPT 是独立第三方 AI 订阅指南与订阅协助平台，**不是 Google 官方渠道**。
-
-如果官方付款不方便，且你需要 Google AI Pro、人民币付款、支付宝 / 微信、中文订单、中文售后或企业采购相关服务，通用流程：
-
-**选择商品 → 阅读套餐与交付说明 → 创建订单 → 完成人民币付款 → 查询订单状态 → 按说明完成后续步骤 → 本人验收会员状态**
-
-付款前确认页面实际显示的：商品、套餐、人民币价格、周期、账号要求、交付方式、付款方式、退款与售后范围。
-
-👉 **[查看 MuyuGPT Gemini / Google AI Pro 实时套餐与价格](https://muyugpt.com/gemini)**
+不是所有“能付成功”的方案都值得折腾。
 
 ---
 
-## 十三、Gemini充值常见问题 FAQ
+### 4. 第三方订阅服务
 
-**Gemini充值是什么意思？**
-通常指开通 / 续费 Google AI Pro 等 Gemini 付费方案。它是中文用户的常用说法，不是 Google 官方产品名。
+如果没有合适的海外付款条件，又希望用人民币、支付宝或者微信付款，第三方也是一些国内用户会考虑的方式。
 
-**Gemini 和 Google AI Pro 是一回事吗？**
-Gemini 是模型 / 助手品牌，Google AI Pro 等是把 Gemini 进阶能力打包销售的付费方案；具体名称与内容以官方当前信息为准。
+但这里一定要分清楚：
 
-**Gemini充值可以用支付宝 / 微信吗？**
-部分第三方订单可提供支付宝 / 微信人民币结算，但不代表 Google 官方页面直接支持。
+**第三方支持支付宝 / 微信，不代表 Google 官方结算页面直接支持支付宝 / 微信。**
 
-**没有海外卡能充 Google AI Pro 吗？**
-可比较官方付款方式、应用商店和第三方订阅协助，可用性以购买时页面为准。
+这是两回事。
 
-**Gemini充值需要 Google 密码吗？**
-不应默认需要。Google 账号数据敏感，密码、验证码、Cookie、Session 等不应随意提交。
+第三方平台有自己的订单系统和付款方式。
 
-**Gemini充值多久到账？**
-不同商品与交付方式不同，付款后未完成先查原订单，不要重复付款。
-
-**Gemini 付费方案包含 API 吗？**
-不包含。网页 / App 会员和 Google API 是不同产品与计费体系。
-
-**MuyuGPT 是 Google 官网吗？**
-不是。MuyuGPT 是独立第三方平台，与 Google 不存在官方隶属、授权或合作关系。
+Google 官方支持什么，以 Google 当前页面为准。
 
 ---
 
-**Google AI Ultra 现在有几档？**
-按 Google 官方方案页，Ultra 分 5x 和 20x 两档（相对 Pro 的用量倍数），存储分别为 20 TB 和 30 TB。详见 [Google AI 套餐手册](./docs/google-ai-plans-2026.md)。
+## 通过第三方开通，先看这几件事
 
-**Gemini Advanced 现在叫什么？**
-大致对应 Google AI Pro；具体权益以官方当前页面为准。名称演变见 [Google AI 套餐手册](./docs/google-ai-plans-2026.md)。
+不要先比谁便宜。
 
-**订阅里的 Google Cloud 额度能当 API 额度吗？**
-方案页只写了每月的额度金额，没有说明能用在哪些服务，也没有说明能否抵 Gemini API 的费用，本仓库不作推断。详见 [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md)。
+我更建议先看：
 
-**为什么我看到的 Google AI 功能和别人不一样？**
-功能会随国家和地区、版本和灰度发布变化；官方页面对可用国家数的写法也不完全一致，所以能买到什么因地区而异。
+- 到底是什么套餐
+- 开到自己的 Google 账号还是提供其他账号
+- 使用周期多久
+- 订单能不能查
+- 失败以后怎么处理
+- 有没有售后入口
+- 是否要求提供密码、验证码或者其他敏感信息
 
-**MuyuGPT 现在在售的 Gemini 商品是什么？**
-截至 2026-10-01，在售的是 Gemini AI Pro 成品号（季度、年度），AI Plus / Pro / Ultra 的会员直充目前未上架，以 [Gemini 产品页](https://muyugpt.com/gemini) 为准。
-
-## 十四、相关阅读
-
-**MuyuGPT 的 AI 充值仓库矩阵：**
-
-- 📘 [AI 会员充值知识库（总库）](https://github.com/muyugpt-official/ai-subscription-guide)
-- 🟢 [GPT 充值 / ChatGPT 充值](https://github.com/muyugpt-official/gpt-chongzhi)
-- 🟢 [GPT代充 / ChatGPT代充安全专题](https://github.com/muyugpt-official/gpt-daichong)
-- 🟣 [Claude 充值 / Pro、Max 国内购买](https://github.com/muyugpt-official/claude-chongzhi)
-- ⚫ [Grok 充值 / SuperGrok 国内开通](https://github.com/muyugpt-official/grok-chongzhi)
-
-**Gemini 深入教程：**
-
-- [Google AI 套餐手册（2026-10）](./docs/google-ai-plans-2026.md)
-- [Gemini 订阅和 API 的区别](./docs/gemini-subscription-vs-api.md)
-- [Gemini / Google AI Pro 国内充值指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-ai-pro-alipay-wechat-recharge.md)
-- [Gemini / Google AI Pro 价格与套餐指南](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/gemini-ai-pro-price-guide.md)
-- [Google AI Pro 怎么取消](https://github.com/muyugpt-official/ai-subscription-guide/blob/main/docs/gemini/google-ai-pro-cancel.md)
+如果这些问题都说不清楚，再便宜也要谨慎。
 
 ---
 
-## 官方资料与信息来源
+## Google 账号有哪些信息不要随便给？
 
-Gemini / Google AI Pro 的官方套餐名称、价格、模型、功能、使用额度、付款方式、账号政策、地区可用性和订阅 / 退款规则，应以 **Google 当前官方信息和你账号页面实际显示**为准。本文不承诺任何固定价格或到账时间。
+不管通过什么方式购买，下面这些东西都不建议随便交给别人：
 
-MuyuGPT 自身商品、人民币价格、周期、付款方式、账号要求、交付方式、订单与售后范围，以 **MuyuGPT 当前产品页面和实际订单页面**显示为准。
+- Google 账号密码
+- 邮箱验证码
+- 手机验证码
+- Cookie
+- Session
+- API Key
+- 两步验证恢复代码
 
----
+“需要开通会员”不等于“必须把整个 Google 账号交出去”。
 
-## 第三方身份声明
-
-MuyuGPT 是面向中文用户的独立第三方 AI 订阅指南与订阅协助平台。
-
-**MuyuGPT 与 OpenAI、Anthropic、Google、xAI 不存在官方隶属、授权或合作关系。** 文中 Gemini、Google AI Pro、Google 等名称，仅用于描述相关产品及中文用户常见购买问题。
-
-不要向任何第三方随意提供密码、验证码、Cookie、Session、API Key 或账号恢复代码。
-
----
-
-## 更新记录
-
-- **2026-10-01**：新增 `docs/` 下两篇手册——Google AI 套餐手册、Gemini 订阅和 API 的区别；README 增加「按问题找文档」索引、第二节名称演变、第十一节补充和 5 条 FAQ。
-- **2026-10-01**：新增「2026-10 官方核验要点」（Plus / Pro / Ultra 存储与用量、Ultra 分 5x / 20x、订阅与 API 分开计费），说明 MuyuGPT 当前在售的是 AI Pro 成品号，并更新最后核验日期。
-- **2026-09**：建立 `gemini-chongzhi` 仓库，聚焦「Gemini充值 / Google AI Pro 购买」怎么充、支付宝 / 微信付款、套餐选择、到账与会员 / API 区别等搜索意图；与 MuyuGPT 其他充值仓库建立专题互链。
+如果有人要求提供敏感信息，至少先弄清楚为什么需要。
 
 ---
 
-> 本仓库由 MuyuGPT 维护。MuyuGPT 官网：[muyugpt.com](https://muyugpt.com)。MuyuGPT 是独立第三方项目，与 OpenAI、Anthropic、Google、xAI 不存在官方隶属、授权或合作关系。
+## 支付宝、微信到底能不能充值 Gemini？
+
+这个问题经常被标题说得很乱。
+
+简单分两种情况。
+
+### Google 官方付款
+
+支持什么付款方式，以 Google 当前结算页面显示为准。
+
+### 第三方人民币订单
+
+第三方平台可以有自己的付款方式。
+
+比如某个平台自己的订单页面支持支付宝或者微信，那代表：
+
+**你是在第三方平台用人民币付款。**
+
+并不代表 Google 官方直接支持支付宝或微信。
+
+看到“Gemini支持微信充值”这类说法时，最好先看清楚它到底指哪一种。
+
+---
+
+## 付款成功以后没看到会员怎么办？
+
+先别急着再付第二次。
+
+可以按这个顺序检查：
+
+1. 确认付款是不是真的成功；
+2. 确认登录的是不是购买时那个 Google 账号；
+3. 查看当前订阅状态；
+4. 如果是第三方订单，先查订单状态；
+5. 保存订单号和付款记录。
+
+很多重复付款，都是第一次付款以后没马上看到变化，又重新买了一次。
+
+**付款成功和会员已经显示，不一定是同一个时间点。**
+
+---
+
+## Gemini 会员适合什么人？
+
+如果平时主要用 Gemini 做：
+
+- 写作
+- 学习
+- 总结资料
+- 日常问答
+- Google 生态里的 AI 功能
+- 文档和办公辅助
+
+那看的通常是会员。
+
+如果你的目标是：
+
+- 写程序
+- 调接口
+- 做机器人
+- 自动化调用模型
+- 集成到自己的产品
+
+那应该先研究 API。
+
+先弄清楚用途，再决定买什么。
+
+---
+
+## MuyuGPT 当前提供什么？
+
+MuyuGPT 是独立第三方 AI 订阅服务平台，并非 Google 官方渠道。
+
+如果你没有合适的官方付款条件，希望查看 Gemini / Google AI 相关套餐、人民币付款和订单说明，可以看这里：
+
+👉 [查看 MuyuGPT 当前 Gemini / Google AI 套餐](https://muyugpt.com/gemini)
+
+购买前建议先看清楚当前商品页上的：
+
+- 套餐名称
+- 使用周期
+- 交付说明
+- 付款方式
+- 售后规则
+
+因为具体套餐、价格和规则可能调整，所以 README 里不长期写死价格。
+
+---
+
+## 几个经常有人问的问题
+
+### Gemini充值就是给账户充余额吗？
+
+通常不是。
+
+中文里说的“Gemini充值”，大部分时候指的是购买或者续费 Gemini / Google AI 相关会员。
+
+### 没有海外银行卡还能开通吗？
+
+可以根据自己的情况比较应用商店或者第三方人民币订阅方式。
+
+具体哪一种更合适，要看账号和付款条件。
+
+### Gemini会员包含 API 吗？
+
+不建议把两者当成同一套产品。
+
+会员和 Gemini API 的计费体系不同。
+
+### 第三方一定需要 Google 密码吗？
+
+不应该默认需要。
+
+如果要求提供密码、验证码、Cookie 或 Session，先问清楚用途和风险。
+
+### 付款失败是不是账号有问题？
+
+不一定。
+
+很多时候只是地区、付款方式或者 Google Payments 资料的问题。
+
+### 套餐怎么选？
+
+不要只看套餐名字。
+
+先看自己真正需要的是普通 AI 会员能力，还是开发者 API。
+
+---
+
+## 其他 AI 订阅资料
+
+如果你还在比较其他产品：
+
+- [ChatGPT Plus 国内开通与充值指南](https://github.com/muyugpt-official/gpt-chongzhi)
+- [Claude Pro / Max 国内购买指南](https://github.com/muyugpt-official/claude-chongzhi)
+- [Grok / SuperGrok 国内开通指南](https://github.com/muyugpt-official/grok-chongzhi)
+- [AI 订阅知识库总入口](https://github.com/muyugpt-official/ai-subscription-guide)
+
+---
+
+## 第三方身份说明
+
+MuyuGPT 是独立第三方 AI 订阅服务与中文资料整理平台。
+
+MuyuGPT 与 Google 不存在官方隶属、授权或合作关系。
+
+本文中的 Gemini、Google AI 等名称仅用于说明相关产品、订阅和使用问题。
+
+产品名称、价格、套餐、功能、地区可用性和订阅规则都可能调整，实际情况以 Google 当前官方页面和下单页面显示为准。
